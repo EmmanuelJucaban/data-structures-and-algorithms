@@ -45,7 +45,6 @@ def reverse_list(list)
     end
 
     stack.data
-    # puts stack.pop
     # ADD CODE HERE
 end
 
