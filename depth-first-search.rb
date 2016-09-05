@@ -23,10 +23,9 @@ shallow_fifth_node = Tree.new(5, [ninth_node])
 trunk   = Tree.new(2, [seventh_node, shallow_fifth_node])
 
 
-def depth_first_(tree, target_node)
+def depth_first(tree, target_node)
   # return the current tree if the payload is equal to the target node
   return tree if tree.payload == target_node
-
   # Loop through each tree's child
   tree.children.each do |child|
     # assign a variable found to depth_first(child, target_node)
